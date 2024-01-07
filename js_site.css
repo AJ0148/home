@@ -1,0 +1,51 @@
+/* navbar css - if updated on other sites, also put changes here */
+.navbar-1 {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.navbar-1 a {
+    float: left;
+    padding: 10px 10px;
+    font-size: 17px;
+    text-align: center;
+}
+
+.navbar-1 a.current {
+    background-color: #04AA6D;
+}
+
+/* js site  */
+.jsbox-1 {
+    width: 100px;
+    height: 100px;
+    border: 20px solid;
+    border-image: conic-gradient(from var(--angle), red, yellow, lime, aqua, blue, magenta, red) 1;
+    animation: 10s rotate linear infinite;
+}
+
+@keyframes rotate {
+    to {
+        --angle: 360deg;
+    }
+}
+
+@property --angle {
+    syntax: '<angle>';
+    initial-value: 0deg;
+    inherits: false;
+}
+
+.jsinnerbox-1 {
+    width: 71px;
+    height: 71px;
+    border: 15px solid transparent;
+}
+
+.jsinnerbox-2 {
+    width: 42px;
+    height: 42px;
+    border: 15px solid;
+    border-image: conic-gradient(from var(--angle), red, yellow, lime, aqua, blue, magenta, red) 1;
+    animation: 10s rotate linear infinite;
+}
