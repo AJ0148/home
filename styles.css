@@ -36,3 +36,11 @@ body {
 .navbar-1 a.current {
     background-color: #04AA6D;
 }
+
+.link-section-header {
+    color: white;
+}
+
+.links-c1 {
+    color: aqua;
+}
