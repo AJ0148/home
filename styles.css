@@ -21,8 +21,11 @@ body {
 
 .navbar-1 {
     overflow: hidden;
-    float: left;
     background-color: #333;
+}
+
+.navbar-1 a {
+    float: left;
     padding: 10px 10px;
     font-size: 17px;
     text-align: center;
