@@ -16,7 +16,7 @@
 }
 
 /* js site  */
-.jsbox-1 {
+.rgbbox {
     width: 100px;
     height: 100px;
     border: 20px solid;
@@ -36,16 +36,29 @@
     inherits: false;
 }
 
-.jsinnerbox-1 {
+.rgbinnerbox-1 {
     width: 71px;
     height: 71px;
     border: 15px solid transparent;
 }
 
-.jsinnerbox-2 {
+.rgbinnerbox-2 {
     width: 42px;
     height: 42px;
     border: 15px solid;
+    border-image: conic-gradient(from var(--angle), red, yellow, lime, aqua, blue, magenta, red) 1;
+    animation: 10s rotate linear infinite;
+}
+
+.rgbinnerbox-3 {
+    width: 30px;
+    height: 30px;
+    border: 7px solid transparent;
+}
+
+.rgbinnerbox-4 {
+    height: 17px;
+    border: 7px solid;
     border-image: conic-gradient(from var(--angle), red, yellow, lime, aqua, blue, magenta, red) 1;
     animation: 10s rotate linear infinite;
 }

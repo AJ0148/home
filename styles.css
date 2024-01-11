@@ -31,8 +31,17 @@ body {
 
 .link-section-header {
     color: white;
+    margin-bottom: 0px;
+}
+
+.link-section {
+    margin-top: 0px;
 }
 
 .links-c1 {
     color: aqua;
+}
+
+.links-c1:hover {
+    color: darkblue;
 }
