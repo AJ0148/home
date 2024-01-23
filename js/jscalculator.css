@@ -25,12 +25,12 @@ table {
 input[type="button"] { 
     width: 100%; 
     padding: 20px 40px; 
-    background-color: green; 
+    /* background-color: green;  */
     color: white; 
     font-size: 24px; 
     font-weight: bold; 
     border: none; 
-    border-radius: 5px;
+    border-radius: 15px;
 } 
 
 input[type="text"] { 
@@ -41,3 +41,11 @@ input[type="text"] {
     border-radius: 5px; 
     border: 2px solid black; 
 } 
+
+#b1, #b2, #b3, #b4, #b5, #b6, #b7, #b8, #b9, #b0, #bdot {
+    background-color: #333333
+}
+
+#f1, #f2, #f3, #f4, #f5, #f6 {
+    background-color: #FF9F0A;
+}
