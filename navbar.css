@@ -1,0 +1,20 @@
+.navbar-1 {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.navbar-1 a {
+    float: left;
+    padding: 10px 10px;
+    font-size: 17px;
+    text-align: center;
+    text-decoration: none
+}
+
+.navbar-1 a:hover {
+    background-color: red;
+}
+
+.navbar-1 a.current {
+    background-color: #04AA6D;
+}
