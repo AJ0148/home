@@ -26,3 +26,17 @@
 .links-c1:hover {
     color: darkblue;
 }
+
+.testb1 {
+    /* background-color: green; */
+    width: 100px;
+    height: 100px;
+}
+
+.testb2 {
+    background-color: green;
+}
+
+.testb1:hover {
+    background-color: red;
+}
