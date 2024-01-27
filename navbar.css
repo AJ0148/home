@@ -1,3 +1,7 @@
+body {
+    background-color: darkslategray;
+}
+
 .navbar-1 {
     overflow: hidden;
     background-color: #333;
