@@ -43,10 +43,18 @@
     background-color: green;
 }
 
-.testb1:hover {
+/* .testb1:hover {
     background-color: red;
 }
 
+.tb1:focus {
+    background-color: orange;
+} */
+
 .tp1 {
     color: white;
+}
+
+.testb3 {
+    background-color: yellow;
 }
