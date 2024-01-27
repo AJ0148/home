@@ -4,6 +4,8 @@
     <title>A website - js calculator</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- line below disables dark mode, comment out if needing to enable -->
+    <meta name="color-scheme" content="only light">
     <link rel="stylesheet" href="jscalculator.css">
     <link rel="stylesheet" href="C:\Users\AJ\Documents\html_site_1\root\navbar.css">
     <script src="jscalculator.js"></script>
@@ -41,13 +43,14 @@
     </div>
   </div>
 <main>
+    <!-- <input type="button" value="c" onclick="clr()" id="testb">  -->
 <table id="calcu"> 
     <tr> 
-        <td colspan="4"><input type="text" id="result"></td> 
+        <td colspan="4"><input type="text" id="result" placeholder="0"></td> 
     </tr> 
     <tr>
         <td><input type="button" value="c" onclick="clr()" id="t1"> </td> 
-        <td><input type="button" id="t2"> </td> 
+        <td><input type="button" id="t2" value=" "> </td> 
         <td><input type="button" value="%" onclick="dis('%')"
             onkeydown="myFunction(event)" id="t3"></td> 
         <td><input type="button" value="÷" onclick="dis('/')"
@@ -88,14 +91,14 @@
     <tr> 
         <td><input type="button" value="0" onclick="dis('0')"
             onkeydown="myFunction(event)" id="b10"></td> 
-        <td><input type="button" id="b12"> </td> 
+        <td><input type="button" id="b12" value=" "> </td> 
         <td><input type="button" value="." onclick="dis('.')"
             onkeydown="myFunction(event)" id="b13"></td> 
         <td><input type="button" value="=" onclick="solve()" id="f5"></td> 
     </tr> 
 
 </table> 
-<img src="https://help.apple.com/assets/656912ADA28BF1B7E90BF0F6/656912B3021EA3AD750FB887/en_US/e726abd62a7d08749d3a882889cdc78d.png" width="200px">
+<!-- <img src="https://help.apple.com/assets/656912ADA28BF1B7E90BF0F6/656912B3021EA3AD750FB887/en_US/e726abd62a7d08749d3a882889cdc78d.png" width="200px"> -->
 </main>
 </body>
 </html>
