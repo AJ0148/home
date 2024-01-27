@@ -34,7 +34,6 @@
 }
 
 .testb1 {
-    /* background-color: green; */
     width: 100px;
     height: 100px;
 }
@@ -43,18 +42,34 @@
     background-color: green;
 }
 
-/* .testb1:hover {
+.testb1:hover {
     background-color: red;
 }
 
 .tb1:focus {
     background-color: orange;
-} */
+}
 
 .tp1 {
     color: white;
 }
 
-.testb3 {
-    background-color: yellow;
+input.toggle-btn {
+    visibility: hidden;
+}
+input.toggle-btn::before {
+    content: attr(value);
+    display: inline-block;
+    padding: 5px;
+    background: #fff;
+    font-size: 14pt;
+    color: #aaa;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+    visibility: visible;
+}
+input.toggle-btn:checked::before {
+    background: rgb(50,150,250);
+    color: #eee;
+    border-color: #eee;
 }
