@@ -1,24 +1,24 @@
-.rgbbox {
+/* .rgbbox {
     width: 100px;
     height: 100px;
     border: 20px solid;
-    border-image: conic-gradient(from var(--angle), red, yellow, lime, aqua, blue, magenta, red) 1;
+    border-image: conic-gradient(red, yellow, lime, aqua, blue, magenta, red) 1;
     animation: 10s rotate linear infinite;
+} */
+
+.rgbbox:before, .rgbbox:after {
+	width: calc(10% + 4px);
+	height: calc(10% + 4px);
+	content: '';
+	position: absolute;
+	left: -2px;
+	top: -2px;
+	background: linear-gradient(45deg, #fb0094, #0000ff, #00ff00,#ffff00, #ff0000,#fb0094,#0000ff, #00ff00,#ffff00, #ff0000);
+	background-size: 400%;
+	animation: 20s steam linear infinite;
 }
 
-@keyframes rotate {
-    to {
-        --angle: 360deg;
-    }
-}
-
-@property --angle {
-    syntax: '<angle>';
-    initial-value: 0deg;
-    inherits: false;
-}
-
-.rgbinnerbox-1 {
+/* .rgbinnerbox-1 {
     width: 71px;
     height: 71px;
     border: 15px solid transparent;
@@ -28,7 +28,7 @@
     width: 42px;
     height: 42px;
     border: 15px solid;
-    border-image: conic-gradient(from var(--angle), red, yellow, lime, aqua, blue, magenta, red) 1;
+    border-image: conic-gradient(red, yellow, lime, aqua, blue, magenta, red) 1;
     animation: 10s rotate linear infinite;
 }
 
@@ -41,6 +41,39 @@
 .rgbinnerbox-4 {
     height: 17px;
     border: 7px solid;
-    border-image: conic-gradient(from var(--angle), red, yellow, lime, aqua, blue, magenta, red) 1;
+    border-image: conic-gradient(red, yellow, lime, aqua, blue, magenta, red) 1;
     animation: 10s rotate linear infinite;
+} */
+
+.block {
+	position: relative;
+	margin: 0px auto 0;
+	width: 500px;
+	height: 250px;
+	background: linear-gradient(#000);
+}
+
+.block:before, .block:after {
+	content: '';
+	position: absolute;
+	left: -2px;
+	top: -2px;
+	background: linear-gradient(45deg, #fb0094, #0000ff, #00ff00,#ffff00, #ff0000,#fb0094,#0000ff, #00ff00,#ffff00, #ff0000);
+	background-size: 400%;
+	width: calc(100% + 4px);
+	height: calc(100% + 4px);
+	z-index: -1;
+	animation: 20s steam linear infinite;
+}
+
+@keyframes steam {
+	0% {
+		background-position: 0 0;
+	}
+	50% {
+		background-position: 400% 0;
+	}
+	100% {
+		background-position: 0 0;
+	}
 }
