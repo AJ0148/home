@@ -33,7 +33,7 @@ body {
     margin: 0;
   }
 
-.navbar-1 a:hover, .dropdown:hover .dropbtn, .dropdown-content a:hover {
+.navbar-1 a:hover, .dropdown:hover .dropbtn, .dropdown-content {
     background-color: red;
 }
 
@@ -61,4 +61,15 @@ body {
 
 .current {
     background-color: #04AA6D;
+}
+
+.spage {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
 }
