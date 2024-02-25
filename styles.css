@@ -78,6 +78,6 @@ input.toggle-btn:checked::before {
     margin-bottom: 0px;
 }
 
-.h1a, p1a {
+.h1a, .p1a {
     color: aqua;
 }
