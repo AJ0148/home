@@ -77,8 +77,9 @@ input.toggle-btn:checked::before {
 
 .h1a {
     margin-bottom: 0px;
+    color: aqua;
 }
 
-.h1a, .p1a {
+.p1a {
     color: aqua;
 }
