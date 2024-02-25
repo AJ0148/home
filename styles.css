@@ -73,3 +73,11 @@ input.toggle-btn:checked::before {
     color: #eee;
     border-color: #eee;
 }
+
+.h1a {
+    margin-bottom: 0px;
+}
+
+.h1a, p1a {
+    color: aqua;
+}
