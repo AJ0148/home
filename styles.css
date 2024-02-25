@@ -57,6 +57,7 @@
 input.toggle-btn {
     visibility: hidden;
 }
+
 input.toggle-btn::before {
     content: attr(value);
     display: inline-block;
