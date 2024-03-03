@@ -1,21 +1,3 @@
-.tarea-1 {
-    box-sizing: content-box;
-    height: 100px;
-    width: 250px;
-    min-height: 100px;
-    max-height: 400px;
-    min-width: 250px;
-    max-width: 700px;
-    font-size: 16px;
-    font-family: sans-serif;
-    color: white;
-    background-color: darkslateblue;
-}
-
-.t1 {
-    color: white;
-}
-
 .link-section-header {
     color: white;
     margin-bottom: 0px;
@@ -81,5 +63,9 @@ input.toggle-btn:checked::before {
 }
 
 .p1a {
+    color: aqua;
+}
+
+.indexp1, .indexh1 {
     color: aqua;
 }
