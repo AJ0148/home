@@ -1,7 +1,7 @@
 # Security Policy
 
 ## Supported Versions
-pages-build-deployment #28 or later
+Latest version of the website
 
 ## Reporting a Vulnerability
-Provide any details you have regarding the vulnerability and any screenshots or other necessary attachments.
+Provide any details you have regarding the vulnerability and add any screenshots or other necessary attachments.
