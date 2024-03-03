@@ -69,3 +69,7 @@ input.toggle-btn:checked::before {
 .indexp1, .indexh1 {
     color: aqua;
 }
+
+.a1 {
+    color: rgb(182, 174, 224);
+  }
