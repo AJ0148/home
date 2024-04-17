@@ -7,3 +7,22 @@
 	height: 10px;
 	border-radius: 100%;
 }
+
+.rainbowbox{
+	margin: 0;
+	padding: 0;
+	height: 150px;
+	width: 150px;
+	background-image: linear-gradient(-225deg,#3498db 0,#9b59b6 29%,#e74c3c 67%,#f1c40f 100%);
+	/* background-image: linear-gradient(-225deg, #ff0000 0, #ffa500 29%, #ffff00 51%, #008000 67%, #0000ff 80%, 4b0082 85%, #ee82ee 100%); */
+	/* background-image: linear-gradient(-225deg,	#ff0000 0, #ffff00  29%, #008000 67%,#0000ff 100%); */
+	background-size: 500% 500%;
+	animation: bg 4s linear infinite;
+	color: black;
+}
+
+	@keyframes bg {
+	50%{
+	 background-position: 100% 100%;
+	}
+}
