@@ -19,8 +19,22 @@
 	color: black;
 }
 
-	@keyframes bg {
+@keyframes bg {
 	50%{
 	 background-position: 100% 100%;
 	}
+}
+
+.button1 {
+	color: transparent;
+	height: 50px;
+	width: 50px;
+	background-color: aquamarine;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.button1:hover {
+	color: red;
+	font-size: 35px;
 }
