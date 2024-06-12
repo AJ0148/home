@@ -1,4 +1,5 @@
 .circle1 {
+	margin-top: 10px;
 	color: red;
 	text-align: center;
 	padding: 1em;
@@ -9,7 +10,7 @@
 }
 
 .rainbowbox{
-	margin: 0;
+	margin: 10px 0px 0px 0px;
 	padding: 0;
 	height: 150px;
 	width: 150px;
@@ -37,4 +38,14 @@
 .button1:hover {
 	color: red;
 	font-size: 35px;
+}
+
+.button2 {
+	background-color: aqua;
+	height: 50px;
+	width: 50px;
+}
+
+.button2:active {
+	background-color: orange;
 }
