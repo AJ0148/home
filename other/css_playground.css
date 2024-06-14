@@ -51,3 +51,13 @@
 .button2:active {
 	background-color: orange;
 }
+
+.button3 {
+	height: 50px;
+	width: 50px;
+	border: 0;
+}
+
+.button3:hover {
+	background-color: transparent;
+}
