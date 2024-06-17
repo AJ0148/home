@@ -73,3 +73,7 @@ input.toggle-btn:checked::before {
 .a1 {
     color: rgb(182, 174, 224);
   }
+
+#wtxt {
+    color: white;
+}
