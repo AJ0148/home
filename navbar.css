@@ -31,7 +31,7 @@
     background-color: inherit;
     font-family: inherit;
     margin: 0;
-  }
+}
 
 .navbar-1 a:hover, .dropdown:hover .dropbtn, .dropdown-content {
     background-color: red;
@@ -53,11 +53,11 @@
     text-decoration: none;
     display: block;
     text-align: left;
-  }
+}
 
-  .dropdown:hover .dropdown-content {
+.dropdown:hover .dropdown-content {
     display: block;
-  }
+}
 
 .current {
     background-color: #04AA6D;

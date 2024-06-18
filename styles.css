@@ -51,6 +51,7 @@ input.toggle-btn::before {
     border: 1px solid #aaa;
     visibility: visible;
 }
+
 input.toggle-btn:checked::before {
     background: rgb(50,150,250);
     color: #eee;
