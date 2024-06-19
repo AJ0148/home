@@ -14,3 +14,8 @@
     flex-direction: column;
     margin-top: 10px;
 }
+
+.text1 {
+    color: white;
+    font-size: smaller;
+}
