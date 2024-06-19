@@ -1,0 +1,10 @@
+#number {
+    color: white;
+}
+
+.btn {
+    background-image: linear-gradient(180deg,  #0538ee 50%, #13b4ef 100%);
+    height: 80px;
+    width: 100px;
+    color: red;
+}
