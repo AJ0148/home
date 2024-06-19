@@ -8,3 +8,9 @@
     width: 100px;
     color: red;
 }
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
